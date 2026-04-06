@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vjeverica — Palačinkara na Dobrinji | Slatke i slane palačinke Sarajevo</title>
+    <meta name="description" content="Vjeverica je palačinkara na Dobrinji u Sarajevu. Slatke i slane palačinke, svježi sastojci, topla atmosfera. Dođi ili naruči dostavu!">
+    <meta name="keywords" content="palačinkara Dobrinja, palačinke Sarajevo, slatke palačinke, slane palačinke, dostava palačinki Sarajevo, Vjeverica">
+    <meta property="og:title" content="Vjeverica — Najslađi kutak Dobrinje">
+    <meta property="og:description" content="Slatke i slane palačinke na Dobrinji. Svježi sastojci, velike porcije, topla atmosfera.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="#hero" class="logo">
+                <span class="logo-icon">🐿️</span>
+                <span class="logo-text">Vjeverica</span>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#o-nama" class="nav-link">O nama</a>
+                <a href="#meni" class="nav-link">Meni</a>
+                <a href="#najtraznije" class="nav-link">Najtraženije</a>
+                <a href="#galerija" class="nav-link">Galerija</a>
+                <a href="#recenzije" class="nav-link">Recenzije</a>
+                <a href="#kontakt" class="nav-link">Kontakt</a>
+            </nav>
+            <a href="#kontakt" class="btn btn-primary header-cta">Naruči</a>
+            <button class="hamburger" id="hamburger" aria-label="Otvori meni">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav" id="mobile-nav">
+        <a href="#o-nama" class="mobile-nav-link">O nama</a>
+        <a href="#meni" class="mobile-nav-link">Meni</a>
+        <a href="#najtraznije" class="mobile-nav-link">Najtraženije</a>
+        <a href="#galerija" class="mobile-nav-link">Galerija</a>
+        <a href="#recenzije" class="mobile-nav-link">Recenzije</a>
+        <a href="#kontakt" class="mobile-nav-link">Kontakt</a>
+        <a href="#kontakt" class="btn btn-primary" style="margin-top:1rem;">Naruči odmah</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge">📍 Dobrinja, Sarajevo</div>
+            <h1 class="hero-title">Vjeverica</h1>
+            <p class="hero-subtitle">Najslađi kutak Dobrinje</p>
+            <p class="hero-desc">Slatke i slane palačinke od svježih sastojaka, velike porcije i topla komšilukska atmosfera. Svrati na pauzi, naruči za kuću ili dođi s ekipom — kod nas je uvijek fino.</p>
+            <div class="hero-actions">
+                <a href="#meni" class="btn btn-primary btn-lg">Pogledaj meni</a>
+                <a href="#kontakt" class="btn btn-outline btn-lg">Naruči odmah</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- O nama -->
+    <section class="section" id="o-nama">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-placeholder">
+                        <span>🥞</span>
+                        <p>Foto lokala</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-label">O nama</span>
+                    <h2 class="section-title">Komšilukska palačinkara<br>s velikim ukusom</h2>
+                    <p>Vjeverica je nastala iz jednostavne ideje: napraviti mjesto gdje se na Dobrinji može pojesti vrhunska palačinka — bez komplikacija, bez čekanja, bez razočarenja.</p>
+                    <p>Koristimo svježe sastojke, pravimo sve po narudžbi i trudimo se da svaka porcija bude onako kako treba: velika, ukusna i ispunjena do kraja. Bilo da voliš slatko ili slano, klasiku ili nešto novo — ovdje ćeš naći svoje.</p>
+                    <p>Dođi sam, s porodicom, s društvom ili naruči za kuću. Kod nas je uvijek opušteno.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">vrsta palačinki</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">svježi sastojci</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">★ 4.9</span>
+                            <span class="stat-label">ocjena gostiju</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meni -->
+    <section class="section section-alt" id="meni">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Naš meni</span>
+                <h2 class="section-title">Za svačiji ukus</h2>
+                <p class="section-desc">Od klasične Nutelle do slanog ručka u palačinki — biraš ti, mi pravimo.</p>
+            </div>
+
+            <div class="menu-categories">
+                <button class="menu-tab active" data-category="slatke">🍫 Slatke</button>
+                <button class="menu-tab" data-category="slane">🧀 Slane</button>
+                <button class="menu-tab" data-category="mini">🐿️ Mini</button>
+                <button class="menu-tab" data-category="dodaci">➕ Dodaci</button>
+                <button class="menu-tab" data-category="pica">🥤 Pića</button>
+            </div>
+
+            <div class="menu-grid" id="menu-grid">
+                <!-- Slatke -->
+                <div class="menu-item" data-category="slatke">
+                    <div class="menu-item-info">
+                        <h3>Nutella & Plazma</h3>
+                        <p>Nutella, mljeven plazma keks, šlag</p>
+                    </div>
+                    <span class="menu-price">5.50 KM</span>
+                </div>
+                <div class="menu-item" data-category="slatke">
+                    <div class="menu-item-info">
+                        <h3>Kinder Bueno</h3>
+                        <p>Kinder krem, komadići Bueno čokolade, šlag</p>
+                    </div>
+                    <span class="menu-price">6.50 KM</span>
+                </div>
+                <div class="menu-item" data-category="slatke">
+                    <div class="menu-item-info">
+                        <h3>Šumsko voće</h3>
+                        <p>Miks bobičastog voća, pavlaka, med</p>
+                    </div>
+                    <span class="menu-price">6.00 KM</span>
+                </div>
+                <div class="menu-item" data-category="slatke">
+                    <div class="menu-item-info">
+                        <h3>Banana & Čokolada</h3>
+                        <p>Svježa banana, tamna čokolada, šlag</p>
+                    </div>
+                    <span class="menu-price">5.50 KM</span>
+                </div>
+                <div class="menu-item" data-category="slatke">
+                    <div class="menu-item-info">
+                        <h3>Eurokrem</h3>
+                        <p>Eurokrem, mrvljeni keks, šlag</p>
+                    </div>
+                    <span class="menu-price">5.00 KM</span>
+                </div>
+
+                <!-- Slane -->
+                <div class="menu-item" data-category="slane" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Pileća klasik</h3>
+                        <p>Pileći file, pavlaka, salata, sir</p>
+                    </div>
+                    <span class="menu-price">7.00 KM</span>
+                </div>
+                <div class="menu-item" data-category="slane" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Šunka & Sir</h3>
+                        <p>Pršut, topljeni sir, rukkola</p>
+                    </div>
+                    <span class="menu-price">6.50 KM</span>
+                </div>
+                <div class="menu-item" data-category="slane" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Tuna</h3>
+                        <p>Tuna, kukuruz, pavlaka, salata</p>
+                    </div>
+                    <span class="menu-price">7.00 KM</span>
+                </div>
+
+                <!-- Mini -->
+                <div class="menu-item" data-category="mini" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Mini Nutella (3 kom)</h3>
+                        <p>Tri mini palačinke s Nutellom</p>
+                    </div>
+                    <span class="menu-price">4.00 KM</span>
+                </div>
+                <div class="menu-item" data-category="mini" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Mini Mix (5 kom)</h3>
+                        <p>Pet mini palačinki, tri preliva po izboru</p>
+                    </div>
+                    <span class="menu-price">6.00 KM</span>
+                </div>
+                <div class="menu-item" data-category="mini" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Dječji set</h3>
+                        <p>3 mini palačinke + sok + slatki preliv</p>
+                    </div>
+                    <span class="menu-price">5.00 KM</span>
+                </div>
+
+                <!-- Dodaci -->
+                <div class="menu-item" data-category="dodaci" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Ekstra preliv</h3>
+                        <p>Nutella, bijela čokolada, karamel, med...</p>
+                    </div>
+                    <span class="menu-price">1.00 KM</span>
+                </div>
+                <div class="menu-item" data-category="dodaci" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Šlag</h3>
+                        <p>Tučeni šlag, ekstra porcija</p>
+                    </div>
+                    <span class="menu-price">0.50 KM</span>
+                </div>
+                <div class="menu-item" data-category="dodaci" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Svježe voće</h3>
+                        <p>Jagoda, banana, borovnica, malina</p>
+                    </div>
+                    <span class="menu-price">1.50 KM</span>
+                </div>
+
+                <!-- Pića -->
+                <div class="menu-item" data-category="pica" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Domaća limunada</h3>
+                        <p>Svježa limunada s mentom</p>
+                    </div>
+                    <span class="menu-price">3.00 KM</span>
+                </div>
+                <div class="menu-item" data-category="pica" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Kafa</h3>
+                        <p>Espresso, cappuccino, domaća</p>
+                    </div>
+                    <span class="menu-price">2.00 KM</span>
+                </div>
+                <div class="menu-item" data-category="pica" style="display:none;">
+                    <div class="menu-item-info">
+                        <h3>Ceđeni sok</h3>
+                        <p>Narandža ili jabuka, svježe cijeđen</p>
+                    </div>
+                    <span class="menu-price">3.50 KM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Najtraženije -->
+    <section class="section" id="najtraznije">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Favoriti</span>
+                <h2 class="section-title">Najtraženije palačinke</h2>
+                <p class="section-desc">Ovo su palačinke koje naši gosti stalno ponovo naručuju. Probaj i shvatićeš zašto.</p>
+            </div>
+
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <div class="featured-placeholder">🍫🥜</div>
+                        <span class="featured-badge">⭐ #1</span>
+                    </div>
+                    <div class="featured-info">
+                        <h3>Nutella & Plazma</h3>
+                        <p>Naša najtraženija kombinacija. Nutella, mljevena plazma i šlag — klasika koja nikad ne razočara.</p>
+                        <span class="featured-price">5.50 KM</span>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <div class="featured-placeholder">🍫✨</div>
+                        <span class="featured-badge">Novo</span>
+                    </div>
+                    <div class="featured-info">
+                        <h3>Kinder Bueno</h3>
+                        <p>Kinder krem, komadići Bueno čokolade i tučeni šlag. Za sve koji vole premium čokoladni užitak.</p>
+                        <span class="featured-price">6.50 KM</span>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <div class="featured-placeholder">🫐🍓</div>
+                        <span class="featured-badge">Fresh</span>
+                    </div>
+                    <div class="featured-info">
+                        <h3>Šumsko voće</h3>
+                        <p>Miks bobičastog voća, pavlaka i med. Svježa, lagana i savršena za ljeto — ali i za svako doba.</p>
+                        <span class="featured-price">6.00 KM</span>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <div class="featured-placeholder">🍌🍫</div>
+                        <span class="featured-badge">Klasika</span>
+                    </div>
+                    <div class="featured-info">
+                        <h3>Banana & Čokolada</h3>
+                        <p>Svježa banana i tamna čokolada sa šlagom. Jednostavno, a savršeno — provjeren izbor.</p>
+                        <span class="featured-price">5.50 KM</span>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <div class="featured-placeholder">🍗🧀</div>
+                    </div>
+                    <div class="featured-info">
+                        <h3>Pileća klasik</h3>
+                        <p>Sočan pileći file, pavlaka, salata i sir. Idealna za ručak u palačinki — brzo, fino, sito.</p>
+                        <span class="featured-price">7.00 KM</span>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <div class="featured-placeholder">🤎✨</div>
+                    </div>
+                    <div class="featured-info">
+                        <h3>Eurokrem</h3>
+                        <p>Domaći Eurokrem, mrvljeni keks i šlag. Nostalgičan ukus iz djetinjstva u svakom zalogaju.</p>
+                        <span class="featured-price">5.00 KM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerija -->
+    <section class="section section-alt" id="galerija">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Galerija</span>
+                <h2 class="section-title">Ovako to izgleda kod nas</h2>
+                <p class="section-desc">Svaka palačinka se pravi s pažnjom. Pogledaj i prosudi sam.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-lg">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p>Palačinka s voćem — krupni plan</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p>Nutella preliv</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p>Unutrašnjost lokala</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p>Slana palačinka</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p>Mini palačinke</p>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-item-lg">
+                    <div class="gallery-placeholder">
+                        <span>📸</span>
+                        <p>Krem od pistacije — detalj</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="instagram-cta">
+                <p>Više slika na našem Instagramu 👇</p>
+                <a href="#" class="btn btn-outline">@vjeverica.sa</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recenzije -->
+    <section class="section" id="recenzije">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Recenzije</span>
+                <h2 class="section-title">Šta kažu naši gosti</h2>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Najbolje palačinke na Dobrinji, bez diskusije. Nutella plazma je brutalna, a porcije su ogromne. Djeca obožavaju mini set."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">A</div>
+                        <div>
+                            <strong>Amina H.</strong>
+                            <span>Google recenzija</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Svratili smo slučajno i sad dolazimo svake sedmice. Pistacija palačinka je nešto posebno. Osoblje super ljubazno."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">E</div>
+                        <div>
+                            <strong>Emir K.</strong>
+                            <span>Google recenzija</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Konačno neko na Dobrinji ko pravi palačinke kako treba. Slane su isto vrhunske — pileća je baš onako kako zamišljaš da treba biti."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">S</div>
+                        <div>
+                            <strong>Selma B.</strong>
+                            <span>Instagram</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Naručio sam dostavu, palačinke stigle tople i savršene. Kinder Bueno je zakon. Definitivno novi omiljeni lokal."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">D</div>
+                        <div>
+                            <strong>Damir T.</strong>
+                            <span>Wolt recenzija</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt & Lokacija -->
+    <section class="section section-alt" id="kontakt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Lokacija & Kontakt</span>
+                <h2 class="section-title">Gdje nas naći</h2>
+                <p class="section-desc">Nalazimo se na Dobrinji, Sarajevo. Lako nas nađeš, lako dođeš — i još lakše opet dođeš.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Adresa</h3>
+                            <p>Dobrinjske bolnice 5<br>71000 Sarajevo, BiH</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <h3>Radno vrijeme</h3>
+                            <p>Pon — Pet: 09:00 — 22:00<br>Sub — Ned: 10:00 — 23:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p><a href="tel:+38761000000">+387 61 000 000</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h3>Društvene mreže</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link">Instagram</a>
+                                <a href="#" class="social-link">Facebook</a>
+                                <a href="#" class="social-link">TikTok</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a href="tel:+38761000000" class="btn btn-primary btn-lg">📞 Pozovi nas</a>
+                        <a href="#" class="btn btn-outline btn-lg">🛵 Naruči dostavu</a>
+                    </div>
+                </div>
+
+                <div class="contact-map">
+                    <div class="map-placeholder">
+                        <span>🗺️</span>
+                        <p>Google Maps embed<br><small>Zamijenite ovaj div sa iframe embed kodom</small></p>
+                        <!--
+                        Zamijenite ovaj div sa:
+                        <iframe src="https://www.google.com/maps/embed?pb=YOUR_EMBED_URL"
+                                width="100%" height="100%" style="border:0;"
+                                allowfullscreen="" loading="lazy"></iframe>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🐿️</span>
+                        <span class="logo-text">Vjeverica</span>
+                    </div>
+                    <p>Palačinkara na Dobrinji, Sarajevo.<br>Slatke i slane palačinke od svježih sastojaka.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigacija</h4>
+                    <a href="#o-nama">O nama</a>
+                    <a href="#meni">Meni</a>
+                    <a href="#najtraznije">Najtraženije</a>
+                    <a href="#galerija">Galerija</a>
+                    <a href="#recenzije">Recenzije</a>
+                    <a href="#kontakt">Kontakt</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Radno vrijeme</h4>
+                    <p>Pon — Pet: 09:00 — 22:00</p>
+                    <p>Sub — Ned: 10:00 — 23:00</p>
+                    <h4 style="margin-top:1rem;">Kontakt</h4>
+                    <a href="tel:+38761000000">+387 61 000 000</a>
+                    <a href="#">@vjeverica.sa</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vjeverica. Sva prava zadržana. · Dizajn i razvoj — <strong>Anes</strong></p>
+                <a href="#hero" class="btn btn-primary">Naruči palačinke 🥞</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
